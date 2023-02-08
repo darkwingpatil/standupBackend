@@ -1,4 +1,4 @@
-import {t} from "../trcp"
+import {t} from "../../trcp"
 import {z} from "zod"
 import {dateAndData} from "../db/date_data"
 import{Allotment} from "../utils/Alloctment"
