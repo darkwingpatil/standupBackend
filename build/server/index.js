@@ -44,7 +44,7 @@ const dotenv = __importStar(require("dotenv"));
 dotenv.config();
 const connect = mongoose_1.default.connect("mongodb+srv://App123:Darkwing123@cluster0.56dvjei.mongodb.net/standuptool?retryWrites=true&w=majority");
 const app = (0, express_1.default)();
-app.use((0, cors_1.default)({ origin: "http://localhost:5173" }));
+app.use((0, cors_1.default)({ origin: "https://magical-biscuit-266bd0.netlify.app" }));
 app.use("/trpc", (0, express_2.createExpressMiddleware)({
     router: router_1.storingData,
     createContext: ({ req, res }) => {
